@@ -6,6 +6,6 @@ ENV HOME /root
 
 CMD ["/sbin/my_init"]
 
-ADD /build/51_setup_replication.sh /etc/my_init.d/
+ADD /build/52_setup_replication.sh /etc/my_init.d/
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
